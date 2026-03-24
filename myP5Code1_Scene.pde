@@ -13,6 +13,14 @@ setup = function() {
     crossiantX += 40;
   }
 
+var cupcakeX = 60;
+  textSize(30);
+
+   while(cupcakeX < 300){
+    text("🧁", cupcakeX, 150);
+    cupcakeX += 40;
+   }
+
   textSize(15);
   text(bakeryLabels[0], 70, 105);
   text(bakeryLabels[1], 70, 185);
