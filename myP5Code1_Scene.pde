@@ -65,3 +65,18 @@ text(myFruits[4], 10, 30);
 text(myFruits[5], 10, 30);
 
 }
+
+draw = function() {
+  backround(255, 255, 255, 150);
+  fill(255, 0, 68);
+
+  if(mousePressed && mouseY < 200){
+
+}
+
+rect(0, 0, 400, 200);
+
+fill(0, 0, 0,);
+textSize(30);
+text("Press Me!", 145, 111)
+};
